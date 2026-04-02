@@ -1,7 +1,7 @@
 # 🎬 Movie Code Bot
 
 <p align="center">
-  🔍 Поиск фильмов по кодам • 🔐 Проверка подписки • ⚡ Быстро и удобно
+  🔍 Movie search by codes • 🔐 Subscription check • ⚡ Fast & Convenient
 </p>
 
 <p align="center">
@@ -12,65 +12,65 @@
 
 ---
 
-## 📌 Возможности
+## 📌 Features
 
-### 👤 Для пользователей
+### 👤 For Users
 
-* 🔎 Поиск фильмов по уникальному коду
-* 🎲 Случайный фильм (если не знаешь что посмотреть)
-* 👤 Профиль пользователя:
+* 🔎 Search movies by unique code
+* 🎲 Random movie (if you don't know what to watch)
+* 👤 User profile:
 
-  * 📅 Дата регистрации
-  * ⭐ Опыт (начисляется за поиск фильмов)
-* ⚡ Быстрая работа без задержек
-
----
-
-### 🛠 Админ-панель (внутри бота)
-
-* ➕ Добавление фильмов (код + название)
-
-* ✏️ Редактирование фильмов
-
-* 🗑 Удаление фильмов
-
-* 📢 Управление спонсорами:
-
-  * ➕ Добавление каналов
-  * ✏️ Редактирование
-  * ❌ Удаление
-
-* 📊 Статистика:
-
-  * 📈 Количество пользователей
-  * 🔥 Самые популярные фильмы
-  * 🎯 Частота запросов
+  * 📅 Registration date
+  * ⭐ Experience (earned by searching movies)
+* ⚡ Fast performance without delays
 
 ---
 
-### 🔐 Система доступа
+### 🛠 Admin Panel (In-bot)
 
-* ✅ Проверка подписки на спонсоров
-* 🚫 Без подписки фильмы не показываются
+* ➕ Add movies (code + title)
+
+* ✏️ Edit movies
+
+* 🗑 Delete movies
+
+* 📢 Sponsor management:
+
+  * ➕ Add channels
+  * ✏️ Edit channels
+  * ❌ Delete channels
+
+* 📊 Statistics:
+
+  * 📈 Number of users
+  * 🔥 Most popular movies
+  * 🎯 Request frequency
 
 ---
 
-## 🧠 Как это работает
+### 🔐 Access System
 
-1. Пользователь отправляет код 🎫
-2. Бот проверяет подписку 📡
-3. Если подписка есть — показывает фильм 🎬
-4. Если нет — просит подписаться 🚫
+* ✅ Subscription check for sponsors
+* 🚫 Movies are not shown without subscription
 
 ---
 
-## ⚙️ Технологии
+## 🧠 How It Works
+
+1. User sends a code 🎫
+2. Bot checks the subscription 📡
+3. If subscribed — shows the movie 🎬
+4. If not — asks to subscribe 🚫
+
+---
+
+## ⚙️ Technologies
 
 * 🐍 Python 3.10+
 * 🤖 aiogram 3.x
 * ⚡ asyncio
 
-### 📦 Основные зависимости
+### 📦 Main Dependencies
 
 ```txt
 aiogram==3.26.0
@@ -81,7 +81,7 @@ pydantic==2.12.5
 
 ---
 
-## 📥 Установка
+## 📥 Installation
 
 ```bash
 git clone https://github.com/USERNAME/REPOSITORY.git
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Запуск
+## ▶️ Launch
 
 ```bash
 python main.py
@@ -99,9 +99,9 @@ python main.py
 
 ---
 
-## 🔑 Настройка
+## 🔑 Setup
 
-Создай `config.py` файл:
+Create a config.py file:
 
 ```
 BOT_TOKEN=your_token_here
@@ -110,37 +110,38 @@ CHANNEL_ID=@your_channel
 
 ---
 
-## 📸 Пример использования
+## 📸 Usage Example
 
 ```
-Пользователь: 8392  
-Бот: 🎬 Название фильма: Интерстеллар
+User: 8392  
+Bot: 🎬 Movie title: Interstellar
 ```
 
 ---
 
-## 🚫 Ограничения
+## 🚫 Limitations
 
-* ❌ Без подписки фильмы не показываются
-* ❌ Работает только с существующими кодами
-
----
-
-## 💡 Планы
-
-* [ ] Добавить рекомендации фильмов
-* [ ] Улучшить систему статистики
-* [ ] Добавить категории
-* [ ] Сделать веб-панель
+* ❌ Movies are not shown without subscription
+* ❌ Works only with existing codes 
 
 ---
 
-## 🤝 Поддержка
+## 💡 Roadmap
 
-Если есть идеи или баги — открывай Issue 😉
+* [ ] Add movie recommendations
+* [ ] Improve statistics system
+* [ ] Add categories
+* [ ] Create a web panel
 
 ---
 
-## ⭐ Поддержи проект
+## 🤝 Support
 
-Поставь звезду ⭐ если тебе понравился бот!
+If you have ideas or found bugs — open an Issue 😉
+
+---
+
+## ⭐ Support the Project
+
+Give it a star ⭐ if you liked the bot!
+
