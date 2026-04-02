@@ -1,18 +1,12 @@
 # 🎬 Movie Code Bot
 
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![Bot API](https://img.shields.io/badge/Bot%20API-9.5-green)
-![Status](https://img.shields.io/badge/status-active-success)
-![Code Style](https://img.shields.io/badge/code%20style-clean-black)
-![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
-
 <p align="center">
   🔍 Поиск фильмов по кодам • 🔐 Проверка подписки • ⚡ Быстро и удобно
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/aiogram-3.x-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 </p>
 
@@ -20,11 +14,44 @@
 
 ## 📌 Возможности
 
+### 👤 Для пользователей
+
 * 🔎 Поиск фильмов по уникальному коду
-* 🎥 Мгновенное получение названия
-* 🔐 Проверка подписки на спонсоров
+* 🎲 Случайный фильм (если не знаешь что посмотреть)
+* 👤 Профиль пользователя:
+
+  * 📅 Дата регистрации
+  * ⭐ Опыт (начисляется за поиск фильмов)
 * ⚡ Быстрая работа без задержек
-* 🧩 Простая логика и масштабируемость
+
+---
+
+### 🛠 Админ-панель (внутри бота)
+
+* ➕ Добавление фильмов (код + название)
+
+* ✏️ Редактирование фильмов
+
+* 🗑 Удаление фильмов
+
+* 📢 Управление спонсорами:
+
+  * ➕ Добавление каналов
+  * ✏️ Редактирование
+  * ❌ Удаление
+
+* 📊 Статистика:
+
+  * 📈 Количество пользователей
+  * 🔥 Самые популярные фильмы
+  * 🎯 Частота запросов
+
+---
+
+### 🔐 Система доступа
+
+* ✅ Проверка подписки на спонсоров
+* 🚫 Без подписки фильмы не показываются
 
 ---
 
@@ -40,8 +67,17 @@
 ## ⚙️ Технологии
 
 * 🐍 Python 3.10+
-* 🤖 python-telegram-bot
-* 📦 asyncio
+* 🤖 aiogram 3.x
+* ⚡ asyncio
+
+### 📦 Основные зависимости
+
+```txt
+aiogram==3.26.0
+aiohttp==3.13.3
+aiofiles==25.1.0
+pydantic==2.12.5
+```
 
 ---
 
@@ -92,10 +128,10 @@ CHANNEL_ID=@your_channel
 
 ## 💡 Планы
 
-* [ ] Добавить базу фильмов
-* [ ] Сделать админ-панель
+* [ ] Добавить рекомендации фильмов
+* [ ] Улучшить систему статистики
 * [ ] Добавить категории
-* [ ] Улучшить UI
+* [ ] Сделать веб-панель
 
 ---
 
