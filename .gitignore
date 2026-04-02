@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Database (чтобы не залить свои тестовые данные)
+database.db
+
+# Environment variables (секреты)
+.env
