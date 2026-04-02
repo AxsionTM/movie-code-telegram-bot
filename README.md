@@ -12,6 +12,26 @@
 
 ---
 
+## 👤 Author
+
+<table border="0">
+  <tr>
+    <td width="100">
+      <img src="https://avatars.githubusercontent.com/u/146373364?s=400&u=b1705cb1d16f4727d337fc26c557b0138e13e7d8&v=4" width="80px;" style="border-radius: 50%;" alt="Axsion"/>
+    </td>
+    <td>
+      <strong>Maxim</strong> (Axsion)<br>
+      <em>Python Developer & Bot Creator</em><br>
+      <a href="https://github.com">
+        <img src="https://shields.io" alt="GitHub">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+
 ## 📌 Features
 
 ### 👤 For Users
