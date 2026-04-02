@@ -101,9 +101,9 @@ python main.py
 
 ## 🔑 Настройка
 
-Создай `.env` файл:
+Создай `config.py` файл:
 
-```env
+```
 BOT_TOKEN=your_token_here
 CHANNEL_ID=@your_channel
 ```
