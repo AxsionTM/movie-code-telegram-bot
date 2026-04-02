@@ -1,36 +1,110 @@
-# 🎬 MovieCode Bot (Telegram)
+# 🎬 Movie Code Bot
 
-![Python](https://shields.io)
-![Aiogram](https://shields.io)
-![License](https://shields.io)
-![Status](https://shields.io)
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![Bot API](https://img.shields.io/badge/Bot%20API-9.5-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Code Style](https://img.shields.io/badge/code%20style-clean-black)
+![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
 
-A powerful Telegram bot designed to provide movie titles based on specific codes. This tool is perfect for creators driving traffic from **TikTok, Instagram Reels, or YouTube Shorts** by using a mandatory subscription check (Content Locker).
+<p align="center">
+  🔍 Поиск фильмов по кодам • 🔐 Проверка подписки • ⚡ Быстро и удобно
+</p>
 
----
-
-## 🌟 Key Features
-
-- 🔐 **Content Locker**: Users cannot see the movie title until they subscribe to all listed sponsor channels.
-- ✅ **Smart Verification**: Detects subscriptions even if the user has only sent a join request to a private channel.
-- 🛠 **Admin Dashboard**: Manage movies and sponsors directly within the Telegram interface (Add/Remove).
-- 📊 **Analytics & Stats**: Track the most popular movie queries and peak user activity by hour.
-- 🧩 **Versatile Codes**: Supports numbers, text strings, or emoji combinations as movie identifiers.
-
----
-
-## 🛠 Tech Stack
-
-- **Language:** Python 3.10+
-- **Framework:** [Aiogram 3.x](https://aiogram.dev) (Asynchronous)
-- **Database:** SQLite
-- **Security:** Dotenv (Environment variables)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
 
 ---
 
-## ⚙️ Installation & Setup
+## 📌 Возможности
 
-1. **Clone the repository:**
+* 🔎 Поиск фильмов по уникальному коду
+* 🎥 Мгновенное получение названия
+* 🔐 Проверка подписки на спонсоров
+* ⚡ Быстрая работа без задержек
+* 🧩 Простая логика и масштабируемость
+
+---
+
+## 🧠 Как это работает
+
+1. Пользователь отправляет код 🎫
+2. Бот проверяет подписку 📡
+3. Если подписка есть — показывает фильм 🎬
+4. Если нет — просит подписаться 🚫
+
+---
+
+## ⚙️ Технологии
+
+* 🐍 Python 3.10+
+* 🤖 python-telegram-bot
+* 📦 asyncio
+
+---
+
+## 📥 Установка
+
 ```bash
-git clone https://github.com
-cd movie-code-telegram-bot
+git clone https://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Запуск
+
+```bash
+python main.py
+```
+
+---
+
+## 🔑 Настройка
+
+Создай `.env` файл:
+
+```env
+BOT_TOKEN=your_token_here
+CHANNEL_ID=@your_channel
+```
+
+---
+
+## 📸 Пример использования
+
+```
+Пользователь: 8392  
+Бот: 🎬 Название фильма: Интерстеллар
+```
+
+---
+
+## 🚫 Ограничения
+
+* ❌ Без подписки фильмы не показываются
+* ❌ Работает только с существующими кодами
+
+---
+
+## 💡 Планы
+
+* [ ] Добавить базу фильмов
+* [ ] Сделать админ-панель
+* [ ] Добавить категории
+* [ ] Улучшить UI
+
+---
+
+## 🤝 Поддержка
+
+Если есть идеи или баги — открывай Issue 😉
+
+---
+
+## ⭐ Поддержи проект
+
+Поставь звезду ⭐ если тебе понравился бот!
