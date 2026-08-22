@@ -1,8 +1,4 @@
-# 🎬 Movie Code Bot
-
-<p align="center">
-  🔍 Movie search by codes • 🔐 Subscription check • ⚡ Fast & Convenient
-</p>
+# Movie Code Bot
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
@@ -16,14 +12,13 @@
   <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/146373364%3Fv%3D4&w=200&h=200&fit=cover&mask=circle" width="120">
 </p>
 
-<h2 align="center">👨‍💻 Maxsim (Axsion)</h2>
+<h2 align="center">Maxsim (Axsion)</h2>
 
 <p align="center">
-  🎬 Developer Telegram Bots • ⚡ Python • 🚀 Enthusiast
+  Developer Telegram Bots · Python · Automation
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Age-17-blue?style=for-the-badge">
   <a href="https://github.com/AxsionTM">
     <img src="https://img.shields.io/badge/GitHub-Axsion-black?style=for-the-badge&logo=github">
   </a>
@@ -31,66 +26,57 @@
 
 ---
 
+## Features
 
-## 📌 Features
+### For Users
 
-### 👤 For Users
+* Search movies by unique code
+* Random movie selection
+* User profile:
 
-* 🔎 Search movies by unique code
-* 🎲 Random movie (if you don't know what to watch)
-* 👤 User profile:
+  * Registration date
+  * Experience earned through movie searches
+* Fast response without unnecessary delays
 
-  * 📅 Registration date
-  * ⭐ Experience (earned by searching movies)
-* ⚡ Fast performance without delays
+### Admin Panel
 
----
+* Add movies by code and title
+* Edit movies
+* Delete movies
+* Sponsor management:
 
-### 🛠 Admin Panel (In-bot)
+  * Add channels
+  * Edit channels
+  * Delete channels
+* Statistics:
 
-* ➕ Add movies (code + title)
+  * Number of users
+  * Most popular movies
+  * Request frequency
 
-* ✏️ Edit movies
+### Access System
 
-* 🗑 Delete movies
-
-* 📢 Sponsor management:
-
-  * ➕ Add channels
-  * ✏️ Edit channels
-  * ❌ Delete channels
-
-* 📊 Statistics:
-
-  * 📈 Number of users
-  * 🔥 Most popular movies
-  * 🎯 Request frequency
+* Subscription verification for sponsor channels
+* Movies are unavailable without an active subscription
 
 ---
 
-### 🔐 Access System
+## How It Works
 
-* ✅ Subscription check for sponsors
-* 🚫 Movies are not shown without subscription
-
----
-
-## 🧠 How It Works
-
-1. User sends a code 🎫
-2. Bot checks the subscription 📡
-3. If subscribed — shows the movie 🎬
-4. If not — asks to subscribe 🚫
+1. User sends a movie code
+2. Bot checks the user's subscription
+3. If the subscription is active, the movie is displayed
+4. Otherwise, the bot asks the user to subscribe
 
 ---
 
-## ⚙️ Technologies
+## Technologies
 
-* 🐍 Python 3.10+
-* 🤖 aiogram 3.x
-* ⚡ asyncio
+* Python 3.10+
+* aiogram 3.x
+* asyncio
 
-### 📦 Main Dependencies
+### Main Dependencies
 
 ```txt
 aiogram==3.26.0
@@ -101,7 +87,7 @@ pydantic==2.12.5
 
 ---
 
-## 📥 Installation
+## Installation
 
 ```bash
 git clone https://github.com/USERNAME/REPOSITORY.git
@@ -111,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Launch
+## Launch
 
 ```bash
 python main.py
@@ -119,34 +105,34 @@ python main.py
 
 ---
 
-## 🔑 Setup
+## Configuration
 
-Create a config.py file:
+Create a `config.py` file:
 
-```
-BOT_TOKEN=your_token_here
-CHANNEL_ID=@your_channel
-```
-
----
-
-## 📸 Usage Example
-
-```
-User: 8392  
-Bot: 🎬 Movie title: Interstellar
+```python
+BOT_TOKEN = "your_token_here"
+CHANNEL_ID = "@your_channel"
 ```
 
 ---
 
-## 🚫 Limitations
+## Usage Example
 
-* ❌ Movies are not shown without subscription
-* ❌ Works only with existing codes 
+```text
+User: 8392
+Bot: Movie title: Interstellar
+```
 
 ---
 
-## 💡 Roadmap
+## Limitations
+
+* Movies are available only after passing the subscription check
+* The bot works only with existing movie codes
+
+---
+
+## Roadmap
 
 * [ ] Add movie recommendations
 * [ ] Improve statistics system
@@ -155,13 +141,10 @@ Bot: 🎬 Movie title: Interstellar
 
 ---
 
-## 🤝 Support
+## Support
 
-If you have ideas or found bugs — open an Issue 😉
+If you have ideas or find a bug, open an Issue in the repository.
 
----
+## Support the Project
 
-## ⭐ Support the Project
-
-Give it a star ⭐ if you liked the bot!
-
+If you like the project, consider giving it a star.
